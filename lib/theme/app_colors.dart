@@ -3,28 +3,31 @@ import 'package:flutter/material.dart';
 class AppColors {
   const AppColors();
 
-  final blue = const Color(0xFF2892F0);
-  final blueDark = const Color(0xFF3054AA);
-  final purple = const Color(0xFFB16CFF);
-  final grey = const Color(0xFF929BA3);
+  static const textColor = Color(0xFF1D1D1D);
+  static const leftPanelHeader = Color(0xFF405D9F);
+  static const leftPanelInactive = Color(0xFF6C7894);
+  static const blue = Color(0xFF2892F0);
+  static const blueDark = Color(0xFF3054AA);
+  static const purple = Color(0xFFB16CFF);
+  static const grey = Color(0xFF929BA3);
 
-  final background = const Color(0xFFE8F3FC);
+  static const background = Color(0xFFE8F3FC);
 
-  final spacer = const Color(0xFFBCB5B5);
+  static const spacer = Color(0xFFBCB5B5);
 
-  final icon = const Color(0xFF2892F0);
-  final iconSelected = const Color(0xFF3054AA);
+  static const icon = Color(0xFF2892F0);
+  static const iconSelected = Color(0xFF3054AA);
 
-  final historyOn = const Color(0xFF2BEDB3);
-  final historyOff = const Color(0xFFFF6E6E);
+  static const historyOn = Color(0xFF2BEDB3);
+  static const historyOff = Color(0xFFFF6E6E);
 
-  final card = const Color(0xFFFFFFFF);
-  final cardPickerOn = const Color(0xFFC3DBFF);
-  final cardSelectedGradient1 = const Color(0xFF5667FF);
-  final cardSelectedGradient2 = const Color(0xFF2396EF);
+  static const card = Color(0xFFFFFFFF);
+  static const cardPickerOn = Color(0xFFC3DBFF);
+  static const cardSelectedGradient1 = Color(0xFF5667FF);
+  static const cardSelectedGradient2 = Color(0xFF2396EF);
 
-  final pickerOn = const Color(0xFF2892F0);
-  final pickerOff = const Color(0xFF929BA3);
-  final pickerGradient1 = const Color(0xFFF71983);
-  final pickerGradient2 = const Color(0xFFFF8D52);
+  static const pickerOn = Color(0xFF2892F0);
+  static const pickerOff = Color(0xFF929BA3);
+  static const pickerGradient1 = Color(0xFFF71983);
+  static const pickerGradient2 = Color(0xFFFF8D52);
 }

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard/presentation/panel/panel_widget.dart';
+import 'package:responsive_dashboard/theme/app_colors.dart';
 import 'package:responsive_dashboard/theme/app_theme.dart';
 
 void main() {
@@ -24,10 +26,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: Center(
-        child: Text(
-          'Hello',
-          style: Theme.of(context).textTheme.displayMedium,
+      child: Container(
+        color: AppColors.background,
+        child: const Center(
+          child: PanelWidget(),
         ),
       ),
     );
